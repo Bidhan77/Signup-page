@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,700;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+      </style>
+</head>
+
+<body>
+    <main class="container">
+        <div class="sign-in-form" id="sign-in">
+
+            <div class="image">
+                <img src="Background Pattern.png" alt="">
+            </div>
+
+            <div class="welcome-back">
+                <p>Welcome back! 👋</p>
+            </div>
+            <h2>Sign up to your account</h2>
+
+            <label for="text">Your name</label> <br>
+            <input type="text" name="name" id="name"> <br>
+            <label for="text">Your email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="text">Password</label><br>
+            <input type="password" name="password" id="password"><br>
+            <label for="text">Confirm Password</label><br>
+            <input type="password" name="confirm-password" id="confirmPassword"><br>
+            <button type="submit" form="nameform" value="Submit" id="submit">CONTINUE</button>
+
+            <h4>All fields are mandatory!</h4>
+        </div>
+    </main>
+    <div class="no-account">
+        <p>Don’t have an account?</p>
+        <p id="loginRedirect"><a href="#">Sign up</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F8FAFC;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 418px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.image img{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 452px;
+    top: 263px;
+    bottom: 0;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: #625BF7;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.12px;
+    margin-top: -20px;
+    margin-bottom: 12px;
+    color: #333333;
+
+}
+p{
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.59px;
+    color: #333333;
+
+}
+.container{
+    background-color: #FFFFFF;
+    Width:444px;
+    Height:537px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#logout{
+    width:352px;
+    height: 55.8px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    font-size: 16px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.logo img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        width: 316px;
+        height: 438px;
+    }
+
+    #logout{
+        width:250.52px;
+        height: 48.11px;
+        margin-left: 20px;
+        margin-top: -1px;
+    }
+    h2{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:325px){
+    .container{
+        width: 250px;
+    }
+
+    #logout{
+        width:200px;
+        margin-left: 1px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
